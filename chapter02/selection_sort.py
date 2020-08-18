@@ -2,6 +2,9 @@ import random
 
 
 def find_smallest(array):
+    """
+    find the smallest elements' index of an array
+    """
     smallest = array[0]
     smallest_idx = 0
 
