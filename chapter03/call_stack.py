@@ -1,3 +1,7 @@
+"""
+When calling functions in a recursive way, we actually use a "stack" in the RAM
+"""
+
 
 def greet(name):
     print("hello " + name + "!")
