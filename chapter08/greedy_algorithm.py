@@ -3,7 +3,8 @@ When we meet up with an NP-complete problem, it will take us a huge amount time 
 the precise solution, thus we usually use an approximating-algorithm to achieve an decent
 result in a much more faster way.
 
-Greedy Algorithm is one of the approximating-algorithm.
+Greedy Algorithm is one of the approximating-algorithm. It seeks local optima, so sometimes it
+won't get global optima.
 """
 # a set represent the states need to be covered
 states_needed = {"mt", "wa", "or", "id", "nv", "ut", "ca", "az"}
